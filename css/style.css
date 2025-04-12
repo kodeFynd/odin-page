@@ -22,6 +22,8 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  color: #b5b6b7;
+  gap: 15px;
 }
 
 /* Layout */
@@ -29,12 +31,71 @@ ul {
 body {
   min-height: 100vh;
   margin: 0;
+}
+
+header {
+  width: 75%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+.header-row {
+  display: flex;
+  margin-bottom: 80px;
+  min-height: 200px;
+  gap: 30px;
+}
+
+.hero-container {
+  background-color: #1f2937;
   display: flex;
   flex-direction: column;
 }
 
-header {
-  background-color: #1f2937;
+.header-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 1;
+  gap: 10px;
+}
+
+.header-col p {
+  font-size: 19px;
+  color: #e5e7eb;
+}
+
+.header-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a8a9ab;
+  flex: 1;
+}
+
+.header-signup {
+  background-color: #3882f6;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  color: #e5e7eb;
+  font-weight: 900;
+  width: 100px;
+}
+
+.header-main-text {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.cta-bg-box {
+  background-color: #3882f6;
 }
 
 .main-heading {
@@ -47,7 +108,8 @@ header {
 }
 
 .cta-card {
-  background-color: #3882f6;
+  width: 75%;
+  margin: 0 auto;
 }
 
 article {
@@ -57,4 +119,5 @@ article {
 footer {
   background-color: #1f2937;
   color: #f9faf8;
+  text-align: center;
 }
