@@ -48,8 +48,9 @@ nav {
 .header-row {
   display: flex;
   margin-bottom: 80px;
-  min-height: 200px;
-  gap: 30px;
+  min-height: 250px;
+  gap: 50px;
+  justify-content: center;
 }
 
 .hero-container {
@@ -61,14 +62,14 @@ nav {
 .header-col {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  flex: 1;
   gap: 10px;
+  flex-basis: 40%;
 }
 
 .header-col p {
-  font-size: 19px;
+  font-size: 20px;
   color: #e5e7eb;
+  margin-top: -5px;
 }
 
 .header-img {
@@ -84,6 +85,7 @@ nav {
   border: 0;
   border-radius: 5px;
   padding: 5px;
+  margin-top: 5px;
   color: #e5e7eb;
   font-weight: 900;
   width: 100px;
@@ -92,6 +94,7 @@ nav {
 .header-main-text {
   font-size: 48px;
   font-weight: 900;
+  max-width: 75%;
 }
 
 .cta-bg-box {
