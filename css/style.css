@@ -29,12 +29,12 @@ ul {
 /* Layout */
 
 body {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   margin: 0;
 }
 
 header {
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@ nav {
 
 .header-col p {
   font-size: 20px;
-  color: #e5e7eb;
+  color: #f9faf8a9;
   margin-top: -5px;
 }
 
@@ -87,8 +87,9 @@ nav {
   padding: 5px;
   margin-top: 5px;
   color: #e5e7eb;
-  font-weight: 900;
-  width: 100px;
+  font-weight: 750;
+  font-size: 16px;
+  width: 110px;
 }
 
 .header-main-text {
@@ -101,17 +102,55 @@ nav {
   background-color: #3882f6;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  min-height: 400px;
+}
+
+.main-card-row {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.main-card-col {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 5px;
+  text-align: center;
+}
+
+.main-card {
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+  min-height: 200px;
+}
+
 .main-heading {
   color: #1f2937;
   font-weight: 900;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 36px;
 }
 
 .main-card-col p {
   color: #848586;
+  font-size: 18px;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 150px;
 }
 
 .cta-card {
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
 }
 
