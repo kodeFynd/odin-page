@@ -156,6 +156,29 @@ main {
 
 article {
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 47%;
+  gap: 15px;
+}
+
+.quote {
+  font-size: 36px;
+}
+
+.quote-author {
+  font-weight: 700;
+  align-self: flex-end;
+  font-size: 20px;
 }
 
 footer {
