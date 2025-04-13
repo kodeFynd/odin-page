@@ -98,10 +98,6 @@ nav {
   max-width: 75%;
 }
 
-.cta-bg-box {
-  background-color: #3882f6;
-}
-
 .main-container {
   display: flex;
   flex-direction: column;
@@ -149,9 +145,47 @@ main {
   margin-bottom: 150px;
 }
 
+aside {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
 .cta-card {
+  background-color: #3882f6;
+  border-radius: 15px;
   width: 70%;
   margin: 0 auto;
+  padding: 50px 50px 50px 50px;
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cta-button {
+  flex-basis: 150px;
+  background-color: transparent;
+  border: 3px solid #e5e7eb;
+  border-radius: 5px;
+  color: #e5e7eb;
+  font-size: 18px;
+  height: 40px;
+}
+
+.cta-col {
+  flex-basis: 700px;
+}
+
+.cta-col > h4 {
+  font-size: 30px;
+}
+
+.cta-col > p {
+  font-size: 18px;
 }
 
 article {
